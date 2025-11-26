@@ -1,20 +1,57 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Nyajha Olive - Interactive Resume</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nyajha Olive — Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body class="fade-in">
-    <h1 class="title">Hi, I'm Nyajha Olive 👋</h1>
-    <p class="subtitle">Aspiring Cybersecurity & IT Professional</p>
+  <header class="hero">
+    <img src="profile.jpg" alt="Nyajha Olive" class="profile">
+    <h1 class="title">Nyajha Olive</h1>
+    <p class="subtitle">Aspiring Cybersecurity & IT Professional — Bowie State University</p>
 
     <nav class="navbar">
-        <a href="experience.html">Experience</a>
-        <a href="skills.html">Skills</a>
-        <a href="education.html">Education</a>
-        <a href="contact.html">Contact</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
     </nav>
+  </header>
 
-    <script src="script.js"></script>
+  <main class="box">
+    <h2>Welcome</h2>
+    <p>Hi — I'm Nyajha. I build data visualizations, support IT operations, and pursue cybersecurity work.
+       Explore the site to see my projects, view my resume, or contact me.</p>
+
+    <div class="two-col">
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="projects.html">My Projects</a></li>
+          <li><a href="resume.html">View Resume</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Scan to Open</h3>
+        <!-- After publishing, replace REPLACE_WITH_YOUR_URL -->
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=REPLACE_WITH_YOUR_URL" alt="QR code" class="qr">
+        <p>Scan this QR code to open the portfolio on your phone.</p>
+      </div>
+    </div>
+  </main>
+
+  <div id="chatbot-root"></div>
+
+  <footer class="box" style="text-align:center;">
+    <small>Designed with ♥ — pink & grey theme</small>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
