@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function(){
   const faq = [
     // --- Existing ---
     {q: 'what skills do you have', a: 'I have Security+, Python, Java, Power BI, Active Directory, networking fundamentals, and Linux/Windows experience.'},
-    {q: 'what projects have you built', a: 'I built a Power BI Dashboard, ACS Data Analytics project, and network utilities. More details are on my Projects page.'},
+    {q: 'what projects have you built', a: 'I built a Power BI Dashboard, ACS Data Analytics project, and network utilities. Their are more details on my Projects page.'},
     {q: 'are you available for work', a: 'Yes—open to internships & part-time roles. Contact me through the site or by email.'},
     {q: 'how can i contact you', a: 'Email me at: Olivenyajha@gmail.com or use the contact form.'},
     {q: 'where did you study', a: 'I study Computer Technology at Bowie State University with a concentration in Network Enterprise Infrastructure.'},
@@ -23,10 +23,10 @@ document.addEventListener('DOMContentLoaded', function(){
     {q: 'what is your major', a: 'My major is Computer Technology with a concentration in Network Enterprise Infrastructure.'},
     {q: 'what classes are you taking', a: 'I take courses in cybersecurity, networks, operating systems, cloud computing, and data analytics.'},
     {q: 'what is your schedule', a: 'I have classes on Tuesdays and Thursdays from 11:00 AM–2:40 PM, and evening classes on Monday and Wednesday (7PM–9:50PM).'},
-    {q: 'what is your gpa goal', a: 'I aim to maintain a strong GPA as I prepare for internships and full-time roles.'},
+    {q: 'what is your gpa ', a: 'My gpa right now is a 3.5 currently.'},
 
     // --- Career Questions ---
-    {q: 'what job do you want', a: 'I am aiming for roles in cybersecurity, cloud engineering, IT support, or security operations.'},
+    {q: 'what job do you want', a: 'I am aiming for roles in cybersecurity, data analyst, IT support, or security operations.'},
     {q: 'what certifications do you have', a: 'I have Security+ and am actively building more skills in cloud and cybersecurity.'},
     {q: 'what experience do you have', a: 'I have hands-on experience across government, healthcare, and financial sectors in IT, security, and analytics.'},
     
