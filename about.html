@@ -1,209 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>About — Nyajha Olive</title>
-  <meta name="description" content="About page for Nyajha Olive — Computer Technology student focused on cybersecurity, cloud, data visualization, and equitable tech solutions." />
-  <style>
-    :root {
-      --bg: #0f1220;
-      --card: #171a2a;
-      --text: #e9ecf5;
-      --muted: #b9bfd3;
-      --accent: #6ea8fe;
-      --accent2: #b17bff;
-      --border: #262a40;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-      background: radial-gradient(1200px 800px at 10% 10%, #121632, var(--bg));
-      color: var(--text);
-      line-height: 1.6;
-    }
-    a { color: var(--accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .wrap {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 40px 24px 80px;
-    }
-    header.hero {
-      padding: 32px;
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      background: linear-gradient(180deg, #1a1f36 0%, var(--card) 100%);
-      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
-    }
-    .name {
-      font-size: 2.2rem;
-      font-weight: 700;
-      letter-spacing: 0.2px;
-    }
-    .subtitle {
-      margin-top: 6px;
-      color: var(--muted);
-      font-size: 1.05rem;
-    }
-    .contact {
-      margin-top: 14px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px 20px;
-      color: var(--muted);
-    }
-    .tagline {
-      margin-top: 18px;
-      font-size: 1.05rem;
-      color: #d9def0;
-    }
-    section {
-      margin-top: 28px;
-      padding: 24px;
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      background: #15192b;
-    }
-    h2 {
-      margin: 0 0 14px;
-      font-size: 1.4rem;
-      font-weight: 700;
-      letter-spacing: 0.2px;
-      color: #f0f3ff;
-    }
-    p { margin: 10px 0 0; }
-    ul { margin: 10px 0 0; padding-left: 20px; }
-    li { margin: 8px 0; }
-    li > strong { color: #f6f8ff; }
-    .grid-2 {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 16px;
-    }
-    @media (min-width: 800px) {
-      .grid-2 { grid-template-columns: 1fr 1fr; }
-    }
-    .footnote {
-      margin-top: 18px;
-      font-size: 0.95rem;
-      color: var(--muted);
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <main class="wrap">
-    <header class="hero" role="banner" aria-label="Intro">
-      <div class="name">Nyajha Olive</div>
-      <div class="subtitle">Computer Technology (Network Enterprise Infrastructure) • Bowie State University</div>
-      <div class="contact" aria-label="Contact">
-        <span>Hyattsville, MD</span>
-        <span><a href="mailto:Olivenyajha@gmail.com">Olivenyajha@gmail.com</a></span>
-        <span><a href="tel:+12402608258">240‑260‑8258</a></span>
-        <span><a href="#certs">Certifications</a></span>
-        <span><a href="#experience">Experience</a></span>
-      </div>
-      <div class="tagline">I design secure, data‑driven solutions that are accessible, authentic, and impactful.</div>
-    </header>
+<body class="fade-in">
 
-    <section aria-labelledby="about">
-      <h2 id="about">About me</h2>
-      <p>Hi, I’m <strong>Nyajha</strong>, a Computer Technology student concentrating on <strong>Network Enterprise Infrastructure</strong>. I’m passionate about cybersecurity, cloud computing, and data visualization. Across roles in government, healthcare, finance, and education, I’ve learned how to turn complex data into clear, usable insights—and how to build systems that people can trust.</p>
-      <p>My work blends hands‑on engineering with careful documentation, so teams understand not just what a solution does, but why it matters. I care about clarity, fairness, and real‑world impact.</p>
-    </section>
+  <header class="hero small">
+    <h1 class="title">About Me</h1>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-    <section aria-labelledby="education">
-      <h2 id="education">Education</h2>
-      <p><strong>Bowie State University</strong> — Bachelor of Science in Computer Technology (Expected May 2026)</p>
-      <ul>
-        <li><strong>Concentration:</strong> Network Enterprise Infrastructure</li>
-      </ul>
-    </section>
+  <main class="box">
+    
+    <h2>🌟 About Me</h2>
+    <p>
+      Hi, I’m <strong>Nyajha Olive</strong>, a Computer Technology student at Bowie State University with a concentration in 
+      <strong>Network Enterprise Infrastructure</strong>. I’m passionate about cybersecurity, cloud computing, and data visualization. 
+      I bring a unique blend of technical expertise, analytical skills, and hands-on experience across government, healthcare, and financial sectors.
+    </p>
 
-    <section id="certs" aria-labelledby="certs-title">
-      <h2 id="certs-title">Certifications and skills</h2>
-      <div class="grid-2">
-        <div>
-          <ul>
-            <li><strong>Certifications:</strong> CompTIA Security+, Cisco Certified Technician, MTA: Networking Fundamentals, Cisco Routing & Switching</li>
-            <li><strong>Programming:</strong> Python, Java</li>
-            <li><strong>Operating systems:</strong> Linux (Ubuntu, Red Hat), Windows, macOS</li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li><strong>Networking & security:</strong> TCP/IP, Wireshark, VPNs, Active Directory, Kali Linux</li>
-            <li><strong>Data tools:</strong> Excel, Power BI, Power Query, data visualization</li>
-            <li><strong>Productivity:</strong> Microsoft Office Suite</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    <h2>🎓 Education</h2>
+    <p>
+      I’m currently pursuing my <strong>Bachelor of Science in Computer Technology</strong> (expected May 2026). 
+      My coursework and projects focus on networking, enterprise infrastructure, and applied security — giving me a strong foundation in both theory and practice.
+    </p>
 
-    <section id="experience" aria-labelledby="exp-title">
-      <h2 id="exp-title">Professional experience</h2>
+    <h2>🛡️ Certifications & Skills</h2>
+    <p>I hold industry certifications including:</p>
+    <ul>
+      <li>CompTIA Security+</li>
+      <li>Cisco Certified Technician</li>
+      <li>MTA: Networking Fundamentals</li>
+      <li>Cisco Routing & Switching</li>
+    </ul>
 
-      <p><strong>Governor’s Office of Crime Prevention and Policy</strong> — Data, Research, and Evaluation Intern (Crownsville, MD) • Sep 2025 – Dec 2025</p>
-      <ul>
-        <li><strong>Public safety analytics:</strong> Collected, cleaned, and analyzed data to inform programs and policy decisions.</li>
-        <li><strong>Interactive dashboards:</strong> Designed and maintained Power BI views that clarified crime trends and program outcomes for decision‑makers.</li>
-        <li><strong>Actionable metrics:</strong> Built visualizations and KPIs to reveal patterns and support evidence‑based decisions.</li>
-        <li><strong>Stakeholder engagement:</strong> Joined research and grants meetings to see how data orchestrates funding and policy in complex government settings.</li>
-      </ul>
+    <p><strong>Technical Skills:</strong></p>
+    <ul>
+      <li><strong>Programming:</strong> Python, Java</li>
+      <li><strong>Operating Systems:</strong> Linux (Ubuntu, Red Hat), Windows, macOS</li>
+      <li><strong>Networking & Security:</strong> TCP/IP, Wireshark, VPNs, Active Directory, Kali Linux</li>
+      <li><strong>Data Tools:</strong> Excel, Power BI, Power Query, Data Visualization</li>
+      <li><strong>Professional Tools:</strong> Microsoft Office Suite</li>
+    </ul>
 
-      <p><strong>Serenity Outpatient Services</strong> — Program Assistant & Website/Digital Content Intern (Upper Marlboro, MD) • Jun 2025 – Aug 2025</p>
-      <ul>
-        <li><strong>Records management:</strong> Updated client records for attendance, appointments, and treatment outcomes.</li>
-        <li><strong>Clinical support:</strong> Assisted clinicians and case managers in retrieving and organizing information.</li>
-        <li><strong>Content accessibility:</strong> Collaborated with outreach to keep web materials clear, engaging, and accessible.</li>
-        <li><strong>Frontline communication:</strong> Managed phone and email inquiries, routing requests to the right staff quickly.</li>
-      </ul>
+    <h2>💼 Professional Experience</h2>
 
-      <p><strong>U.S. Bank</strong> — Technology Fellow, Discover Us Program (Minneapolis, MN) • Jul 2024 – Aug 2024</p>
-      <ul>
-        <li><strong>Selective fellowship:</strong> Completed an intensive, four‑week exploration of technology careers in finance.</li>
-        <li><strong>Security & engineering:</strong> Worked on real‑world case projects across engineering and information security.</li>
-        <li><strong>Inclusive leadership:</strong> Grew leadership skills through workshops and executive interactions.</li>
-        <li><strong>Professional network:</strong> Built relationships across cohorts and with senior leaders.</li>
-      </ul>
+    <h3>Governor’s Office of Crime Prevention and Policy — Data, Research, and Evaluation Intern (2025)</h3>
+    <p>
+      Collected, cleaned, and analyzed public safety data to inform program and policy decisions. Designed and maintained interactive Power BI dashboards 
+      that helped decision-makers understand crime trends and program performance. Strengthened my ability to translate complex datasets into actionable insights.
+    </p>
 
-      <p><strong>Circuit Court (State Attorney’s Office)</strong> — Data Management Intern (Upper Marlboro, MD) • Feb 2024 – Aug 2024</p>
-      <ul>
-        <li><strong>Database stewardship:</strong> Helped develop and maintain electronic databases for court records.</li>
-        <li><strong>High accuracy:</strong> Entered and validated 50+ legal records with 99% accuracy to improve processing efficiency.</li>
-        <li><strong>Data integrity:</strong> Supported cleaning and validation to uphold quality in high‑stakes environments.</li>
-      </ul>
+    <h3>Serenity Outpatient Services — Program Assistant & Digital Content Intern (2025)</h3>
+    <p>
+      Supported clinicians by managing client records and case information. Updated and maintained digital outreach content, ensuring accessibility and clarity. 
+      Balanced administrative precision with the ability to communicate technical information to diverse audiences.
+    </p>
 
-      <p><strong>Summer Youth Employment Program</strong> — IT Intern (Lanham, MD) • Jul 2022 – Sep 2022</p>
-      <ul>
-        <li><strong>Device readiness:</strong> Installed and updated software to ensure student machines ran efficiently.</li>
-        <li><strong>Diagnostics:</strong> Checked in computers and performed repairs and troubleshooting.</li>
-        <li><strong>Hardware handling:</strong> Removed and serviced Chromebook monitors.</li>
-        <li><strong>Asset tracking:</strong> Labeled and scanned devices into the school system.</li>
-      </ul>
-    </section>
+    <h3>U.S. Bank — Technology Fellow, Discover Us Program (2024)</h3>
+    <p>
+      Selected for a competitive fellowship where I gained exposure to engineering and information security through hands-on case projects. 
+      Developed leadership skills and built a professional network through collaboration with senior executives and peers.
+    </p>
 
-    <section aria-labelledby="leadership">
-      <h2 id="leadership">Leadership and activities</h2>
-      <p><strong>Student Technician, AAC&U Conference</strong> • Nov 2023 – Present</p>
-      <ul>
-        <li><strong>Live support:</strong> On‑site IT/AV for speakers; troubleshooting live streaming and hardware issues.</li>
-        <li><strong>Event reliability:</strong> Coordinated with staff and IT teams to deliver seamless sessions for 300+ attendees.</li>
-      </ul>
+    <h3>Circuit Court (State Attorney’s Office) — Data Management Intern (2024)</h3>
+    <p>
+      Supported database maintenance for electronic court records. Entered and validated 50+ legal records with 99% accuracy, reinforcing the importance of 
+      data integrity in high-stakes environments.
+    </p>
 
-      <p><strong>Blerd Club (Black Nerds Club)</strong> • Oct 2023 – Mar 2025</p>
-      <ul>
-        <li><strong>Community:</strong> Engaged in a space that celebrates Black nerd culture and contributions.</li>
-        <li><strong>Networking:</strong> Connected with peers and professionals to support growth and inclusion in tech.</li>
-      </ul>
-    </section>
+    <h3>Summer Youth Employment Program — IT Intern (2022)</h3>
+    <p>
+      Performed diagnostics, installed software, and maintained computers for school systems. Gained early hands-on experience in IT support and troubleshooting.
+    </p>
 
-    <section aria-labelledby="values">
-      <h2 id="values">What drives me</h2>
-      <p>I’m motivated by clarity, fairness, and impact. Whether building dashboards that inform public policy, supporting clinicians with accurate records, or exploring secure solutions in finance, I aim to make technology <strong>useful, trustworthy, and human‑centered</strong>. My long‑term goal is to contribute in cloud computing and cybersecurity—reducing bias and promoting integrity in systems that affect people’s lives.</p>
-      <p class="footnote">Open to internships and collaborative projects in security, cloud, and data engineering.</p>
-    </section>
+    <h2>🌍 Leadership & Activities</h2>
+    <ul>
+      <li><strong>Student Technician, AAC&U Conference (2023–Present):</strong> Provided AV and IT support for speakers, troubleshooting livestream and hardware issues for 300+ attendees.</li>
+      <li><strong>Blerd Club (Black Nerds Club, 2023–2025):</strong> Engaged in community celebrating Black nerd culture while promoting inclusivity and networking in tech.</li>
+    </ul>
+
+    <h2>💡 What Drives Me</h2>
+    <p>
+      Across every role, I’ve focused on clarity, fairness, and impact — whether building dashboards that inform policy, supporting clinicians through accurate records, 
+      or exploring secure technology solutions in finance. My long-term goal is to contribute to cloud computing and cybersecurity, reducing bias and promoting 
+      integrity in systems that affect people’s lives.
+    </p>
+
   </main>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
